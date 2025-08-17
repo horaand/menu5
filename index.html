@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Aurora Sidebar Menu</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <input type="checkbox" id="aside-toggle" class="aside-toggle" aria-hidden="true" />
+        <label for="aside-toggle" class="burger" aria-label="Toggle menu"
+         aria-controls="sidebar" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </label>
+
+        <aside id="sidebar" class="sidebar" aria-label="Primary">
+            <a href="#" class="brand"><span class="badge">A</span>
+                <span class="brand-name">Aurora</span></a>
+            <nav class="nav">
+            <a class="nav-link active" href="#">Dashboard</a>
+            <a class="nav-link" href="#">Projects</a>
+            <details class="group">
+                <summary class="nav-link">Services</summary>
+                <div class="submenu">
+                <a href="#">Design</a>
+                <a href="#">Development</a>
+                <a href="#">Consulting</a>
+                </div>
+            </details>
+            <a class="nav-link" href="#">Reports</a>
+            <a class="nav-link" href="#">Settings</a>
+            </nav>
+            <a class="cta" href="#">Sign Up</a>
+        </aside>
+
+    <main class="content">
+        <section class="hero">
+        <h1>Bold, Neon, Minimal</h1>
+        <p>A vertical sidebar with a glowing gradient accent. Pure HTML & CSS.</p>
+        <a class="hero-btn" href="#">Try It</a>
+        </section>
+        <section class="cards">
+        <article class="card">
+            <h2>Neon Accent</h2>
+            <p>Teal and violet gradients create a distinct visual identity on a deep canvas.</p>
+        </article>
+        <article class="card">
+            <h2>Accessible</h2>
+            <p>Keyboard focus rings, semantic markup, and a native details submenu.</p>
+        </article>
+        <article class="card">
+            <h2>Responsive</h2>
+            <p>On small screens, the sidebar becomes an off-canvas drawer.</p>
+        </article>
+        </section>
+    </main>
+
+    </body>
+</html>
